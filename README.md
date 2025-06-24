@@ -53,3 +53,77 @@
   </footer>
 </body>
 </html>
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  padding: 10px 20px;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: #ff3300;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.gallery {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px 18px;
+  font-size: 22px;
+  border-radius: 50%;
+  text-decoration: none;
+}
